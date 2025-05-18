@@ -8,7 +8,7 @@ const Router = require("./routes/index");
 const app = express();
 
 var whitelist = [
-  "https://ecommerce-j9ie.onrender.com/",
+  "https://ecommerce-j9ie.onrender.com",
   "http://localhost:8000",
 ];
 var corsOptions = {
