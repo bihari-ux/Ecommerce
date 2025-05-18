@@ -23,7 +23,7 @@
 require("mongoose")
        .connect(process.env.DB_KEY)
        .then(()=>{
-        console.log("Data Base is connected")
+        console.log("Database is succesfully connected...")
        })
        .catch(error=>{
         console.log(error)
